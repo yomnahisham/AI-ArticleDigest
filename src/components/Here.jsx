@@ -3,8 +3,8 @@ import { logo } from '../assets';
 
 const Hero = () => {
   return (
-    <header classname="w-full flex justify-center items-center flex-col">
-        <nav classname="flex justify-between items-center w-full mb-10 pt-3">
+    <header className="w-full flex justify-center items-center flex-col">
+        <nav className="flex justify-between items-center w-full mb-10 pt-3">
             <img src={logo} alt="digester logo" className='w-28 object-contain' />
             <button 
                 type="button" 
